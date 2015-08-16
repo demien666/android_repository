@@ -1,0 +1,6 @@
+<resources>
+    <color name="blue_pressed">@android:color/holo_blue_dark</color>
+    <color name="blue_normal">@android:color/holo_blue_light</color>
+    <color name="green_pressed">@android:color/holo_green_dark</color>
+    <color name="green_normal">@android:color/holo_green_light</color>
+</resources>

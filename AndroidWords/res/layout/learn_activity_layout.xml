@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+<!--
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tvLearnCaption"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/learn_current_word"
+            android:id="@+id/tvLearnCurrentWord"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtLearnCurrentWord"
+            android:text="Test Word"
+            android:editable="false"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/learn_current_translation"
+            android:id="@+id/tvLearnCurrentTranslation"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtLearnCurrentTranslation"
+            android:text="Test translation"
+            android:editable="false"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/learn_current_example"
+            android:id="@+id/tvLearnCurrentExample"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:text="example of using"
+            android:id="@+id/edtLearnCurrentExample"/>
+-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 android:layout_margin="5dp"
+
+            >
+
+        <!-- INFO BUTTONS  -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_info_wdb"
+                    android:id="@+id/btnLearnInfoWDB"
+                    android:enabled="true"
+                    android:background="@drawable/flat_selector"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"
+
+                    />
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_info_wil"
+                    android:id="@+id/btnLearnInfoWIL"
+                    android:enabled="true"
+                    android:background="@drawable/flat_selector"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"
+                    />
+
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_info_cl"
+                    android:id="@+id/btnLearnInfoCL"
+                    android:enabled="true"
+                    android:background="@drawable/flat_selector"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"
+                    />
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_info_cp"
+                    android:id="@+id/btnLearnInfoCP"
+                    android:enabled="true"
+                    android:background="@drawable/flat_selector"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"
+                    />
+        </LinearLayout>
+
+        <!-- Current word and Translation and Example-->
+        <!--
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/learn_current_word"
+                android:id="@+id/tvLearnCurrentWord"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/learn_current_translation"
+                android:id="@+id/tvLearnCurrentTranslation"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/learn_current_example"
+                android:id="@+id/tvLearnCurrentExample"/>
+android:layout_height="wrap_content"
+                android:layout_height="0dip"
+                -->
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_current_word"
+                    android:id="@+id/btnLearnCurrentWord"
+                    android:enabled="true"
+                    android:background="@drawable/flat_selector_green"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"/>
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_current_translation"
+                    android:id="@+id/btnLearnCurrentTranslation"
+                    android:enabled="true"
+                    android:background="@drawable/flat_selector_green"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"/>
+         </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_current_example"
+                    android:id="@+id/btnLearnCurrentExample"
+                    android:enabled="true"
+                    android:background="@drawable/flat_selector_green"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"
+                    android:padding="@dimen/button_padding"
+                    />
+
+        </LinearLayout>
+
+        <!-- WORDS BUTTONS -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_prev_word"
+                    android:id="@+id/btnLearnWordPrev"
+                    android:onClick="btnLearnWordPrevOnClick"
+                    android:background="@drawable/flat_selector"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"
+                    android:drawableRight="@drawable/btn_prev_word"
+                    android:padding="@dimen/button_padding"
+                    />
+
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_next_word"
+                    android:id="@+id/btnLearnWordNext"
+                    android:onClick="btnLearnWordNextOnClick"
+                    android:background="@drawable/flat_selector"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"
+                    android:drawableRight="@drawable/btn_next_word"
+                    android:padding="@dimen/button_padding"
+                    />
+        </LinearLayout>
+
+         <!-- LESSONS BUTTONS -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+
+        <Button
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/learn_prev_lesson"
+                android:id="@+id/btnLearnLessonPrev"
+                android:onClick="btnLearnLessonPrevOnClick"
+                android:background="@drawable/flat_selector"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/button_text_size"
+                android:drawableRight="@drawable/btn_prev_lesson"
+                android:padding="@dimen/button_padding"
+                />
+        <Button
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/learn_next_lesson"
+                android:id="@+id/btnLearnLessonNext"
+                android:onClick="btnLearnLessonNextOnClick"
+                android:background="@drawable/flat_selector"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/button_text_size"
+                android:drawableRight="@drawable/btn_next_lesson"
+                android:padding="@dimen/button_padding"
+                />
+         </LinearLayout>
+
+
+      <!-- START / INFO -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+
+        <Button
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/learn_start_test"
+                android:id="@+id/btnLearnStartTest"
+                android:onClick="btnLearnStartTestOnClick"
+                android:background="@drawable/flat_selector_green"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/button_text_size"
+                android:drawableRight="@drawable/btn_start"
+                android:padding="@dimen/button_padding"
+                />
+
+        <Button
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/learn_info"
+                android:id="@+id/btnLearnInfo"
+                android:onClick="btnLearnInfoOnClick"
+                android:background="@drawable/flat_selector"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/button_text_size"
+                android:drawableRight="@drawable/btn_info"
+                android:padding="@dimen/button_padding"
+                />
+
+
+            </LinearLayout>
+
+        <!-- SETTINGS / EXIT -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_settings"
+                    android:id="@+id/btnLearnSettings"
+                    android:onClick="btnLearnSettingsOnClick"
+                    android:background="@drawable/flat_selector"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"
+                    android:drawableRight="@drawable/btn_settings"
+                    android:padding="@dimen/button_padding"
+
+                    />
+
+            <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/learn_exit"
+                    android:id="@+id/btnLearnExit"
+                    android:onClick="btnLearnExitOnClick"
+                    android:background="@drawable/flat_selector"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/button_text_size"
+                    android:drawableRight="@drawable/btn_exit"
+                    android:padding="@dimen/button_padding"
+                    />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

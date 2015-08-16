@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">weather.co.ua</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="hello_world">Hello world!</string>
+    <!--
+    <string name="btnAddCityCaption">Добавить\nгород</string>
+    <string name="btnRemoveCityCaption">Удалить\nгород</string>
+    <string name="btnRefreshCaption">Обновить</string>
+    <string name="btnExitCaption">Выход</string>
+    <string name="btnHelpCaption">Помощь</string>
+     -->
+    <string name="btnAddCityCaption"><b>+</b></string>
+    <string name="btnRemoveCityCaption"><b>-</b></string>
+    <string name="btnRefreshCaption"><b>↻</b></string>
+    <string name="btnExitCaption"><b>x</b></string>
+    <string name="btnHelpCaption"><b>?</b></string>
+     
+    <string name="last_updated">Оновлено:</string>
+    <string name="updating">оновлення...</string>
+    
+    <string name="enter3symbols">Введіть хочаб 3 символи</string>
+    <string name="notFound">Нічого не знайдено :(</string>
+
+    <!-- Search activity -->
+    <string name="title_activity_search">Додати місто</string>
+    <string name="btnSearchCityCaption">Пошук</string>
+    <string name="btnSelectCityCaption">Вибрати</string>
+    
+    
+    <!--  Remove city activity -->
+    <string name="title_activity_remove_city">Видалити місто</string>
+    
+    <!--  Text constants -->
+    <string name="day_time_night">Ніч</string>
+    <string name="day_time_mourning">Ранок</string>
+    <string name="day_time_day">День</string>
+    <string name="day_time_evening">Вечір</string>
+    
+    <string name="day_today">Today</string>
+    
+    <string name="report_temperature">t°C</string>
+    <string name="report_cloud">Облачн.</string>
+    <string name="report_rain">Осадки</string>    
+    
+    <!-- Help activity -->
+    <string name="title_activity_help">Допомога</string>
+    <string name="btnBackCaption">Назад</string>
+    <string name="tvHelpButtonInfo">\n\nКнопки основного вікна:</string>
+    <string name="tvHelpRefreshText">оновити(завантажити) данні</string>
+    <string name="tvHelpAddCityText">додати місто</string>
+    <string name="tvHelpRemoveCityText">видалити місто</string>
+    <string name="tvHelpHelpText">допомога</string>
+    <string name="tvHelpExitText">вихід</string> 
+    
+    <string name="tvHelpImageDescriptionText">\n\nОпис використаних зображень:</string>
+    <string name="ivHelpSunText">\nСонячно</string>
+    <string name="ivHelpSunCloudsText">\nСонце в хмарах</string>
+    <string name="ivHelpMoonText">\nМісяць</string>
+    <string name="ivHelpMoonCloudsText">\nМісяць в хмарах</string>
+    <string name="ivHelpCloudy">\nХмарно</string>
+    <string name="ivHelpOvercast">\nПохмуро</string>    
+    <string name="ivHelpShortRainText">\nНевеликий дощ</string>
+    <string name="ivHelpRainText">\nДощ</string>
+    <string name="ivHelpLightningText">\nГроза</string>
+    <string name="ivHelpHailText">\nГрад</string>
+    <string name="ivHelpRainSnowText">\nДощ зі снігом</string>
+    <string name="ivHelpSnowText">\nСніг</string>
+    <string name="ivHelpHeavySnowText">\nСнігопад</string>
+    
+    <string name="btnShowDevInfoActivityCaption">Інформація про розробника</string>
+
+    
+    <!-- DevInfo Activity -->
+    <string name="title_activity_dev_info">Інформація про розробника</string>
+    <string name="tvHelpDeveloperCaption">Розробник:</string>
+    <string name="tvHelpDeveloperText">Дмитро Ковальський</string> 
+    
+     <!-- Detail Activity  -->
+    <string name="title_activity_detail">Деталі</string>
+    <string name="tvDetailCity">Місто:</string>
+    <string name="tvDetailDate">Дата:</string>
+    <string name="tvDetailTime">Час:</string>
+    <string name="tvDetailTemp">Температура:</string>
+    <string name="tvDetailCloud">Хмарність(%):</string>
+    <string name="tvDetailPpcp">Ймовірність опадів(%):</string>
+    <string name="tvDetailWind">Швидкіть вітру(м/с):</string>
+    <string name="tvDetailWindDirection">Напрямок вітру:</string>
+    <string name="tvDetailPressure">Тиск(мм):</string>
+    <string name="tvDetailHmid">Вологість(%):</string>      
+
+</resources>

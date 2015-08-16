@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<!--
+    <ImageButton
+            android:id="@+id/btnAddNoteBack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnBackOnClick"
+            android:src="@drawable/btn_back" />
+-->
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cbAddIsPriority"
+            android:id="@+id/cbAddIsPriority"/>
+<!--
+    <TextView
+            android:id="@+id/tvAddNoteName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvAddNoteNameCaption"
+            android:layout_below="@+id/btnDevInfoBack" />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtAddNoteName"/>
+-->
+    <TextView
+            android:id="@+id/tvAddNoteDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvAddNoteDescription"
+            android:layout_below="@+id/tvDevInfoCaption" />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            android:id="@+id/edtAddNoteDescription"/>
+<!--
+    <ImageButton
+            android:id="@+id/btnAddNoteAdd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnAddOnClick"
+            android:src="@drawable/btn_save" />
+-->
+</LinearLayout>

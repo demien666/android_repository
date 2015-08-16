@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">weather.co.ua</string>
+    <string name="action_settings">Настройки</string>
+    <string name="hello_world">Hello world!</string>
+    <!--
+    <string name="btnAddCityCaption">Добавить\nгород</string>
+    <string name="btnRemoveCityCaption">Удалить\nгород</string>
+    <string name="btnRefreshCaption">Обновить</string>
+    <string name="btnExitCaption">Выход</string>
+    <string name="btnHelpCaption">Помощь</string>
+     -->
+    <string name="btnAddCityCaption"><b>+</b></string>
+    <string name="btnRemoveCityCaption"><b>-</b></string>
+    <string name="btnRefreshCaption"><b>↻</b></string>
+    <string name="btnExitCaption"><b>x</b></string>
+    <string name="btnHelpCaption"><b>?</b></string>
+     
+    <string name="last_updated">Обновлено:</string>
+    <string name="updating">обновление...</string>
+    
+    <string name="enter3symbols">Введите хотябы 3 символа.</string>
+    <string name="notFound">Ничего не найдено :(</string>
+
+    <!-- Search activity -->
+    <string name="title_activity_search">Добавить город</string>
+    <string name="btnSearchCityCaption">Поиск</string>
+    <string name="btnSelectCityCaption">Выбрать</string>
+    
+    
+    <!--  Remove city activity -->
+    <string name="title_activity_remove_city">Удалить город</string>
+    
+    <!--  Text constants -->
+    <string name="day_time_night">Ночь</string>
+    <string name="day_time_mourning">Утро</string>
+    <string name="day_time_day">День</string>
+    <string name="day_time_evening">Вечер</string>
+    
+    <string name="day_today">Today</string>
+    
+    <string name="report_temperature">t°C</string>
+    <string name="report_cloud">Облачн.</string>
+    <string name="report_rain">Осадки</string>    
+    
+    <!-- Help activity -->
+    <string name="title_activity_help">Помощь</string>
+    <string name="btnBackCaption">Назад</string>
+    <string name="tvHelpButtonInfo">\n\nКнопки основного окна:</string>
+    <string name="tvHelpRefreshText">обновить(загрузить) данные</string>
+    <string name="tvHelpAddCityText">добавить город</string>
+    <string name="tvHelpRemoveCityText">удалить город</string>
+    <string name="tvHelpHelpText">помощь</string>
+    <string name="tvHelpExitText">выход</string> 
+    
+    <string name="tvHelpImageDescriptionText">\n\nОписание используемых изображений:</string>
+    <string name="ivHelpSunText">\nСолнечно</string>
+    <string name="ivHelpSunCloudsText">\nСолнце в облаках</string>
+    <string name="ivHelpMoonText">\nЛуна</string>
+    <string name="ivHelpMoonCloudsText">\nЛуна в облаках</string>
+    <string name="ivHelpCloudy">\nОблачно</string>
+    <string name="ivHelpOvercast">\nПасмурно</string>    
+    <string name="ivHelpShortRainText">\nНебольшой дождь</string>
+    <string name="ivHelpRainText">\nДождь</string>
+    <string name="ivHelpLightningText">\nМолния</string>
+    <string name="ivHelpHailText">\nГрад</string>
+    <string name="ivHelpRainSnowText">\nДождь со снегом</string>
+    <string name="ivHelpSnowText">\nСнег</string>
+    <string name="ivHelpHeavySnowText">\nСнегопад</string>
+    
+    <string name="btnShowDevInfoActivityCaption">Информация о разрабочике</string>
+
+    
+    <!-- DevInfo Activity -->
+    <string name="title_activity_dev_info">Информация о разработчике</string>
+    <string name="tvHelpDeveloperCaption">Разработчик программы:</string>
+    <string name="tvHelpDeveloperText">Дмитрий Ковальский</string> 
+    
+    <!-- Detail Activity  -->
+    <string name="title_activity_detail">Детали</string>
+    <string name="tvDetailCity">Город:</string>
+    <string name="tvDetailDate">Дата:</string>
+    <string name="tvDetailTime">Время:</string>
+    <string name="tvDetailTemp">Температура:</string>
+    <string name="tvDetailCloud">Облачность(%):</string>
+    <string name="tvDetailPpcp">Вероятность осадков(%):</string>
+    <string name="tvDetailWind">Скорость ветра(м/с):</string>
+    <string name="tvDetailWindDirection">Направление ветра:</string>
+    <string name="tvDetailPressure">Давление(мм):</string>
+    <string name="tvDetailHmid">Влажность(%):</string>    
+
+</resources>

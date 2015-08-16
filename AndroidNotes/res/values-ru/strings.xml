@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Заметки</string>
+    <string name="hello">Hello notes!</string>
+
+    <!-- ACTIVITY LIST  -->
+    <string name="activitySettings">Настройки</string>
+    <string name="activityAddNote">Добавление</string>
+    <string name="activityEditNote">Редактирование</string>
+    <string name="activityInfo">Информация</string>
+
+
+    <string name="action_addNote">Добавить</string>
+    <string name="action_saveNote">Сохранить</string>
+    <string name="action_deleteNote">Удалить</string>
+    <string name="action_info">Информация</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_exit">Выход</string>
+    <string name="action_back">Назад</string>
+
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="btnAddNoteCaption">Добавить</string>
+    <string name="btnInfoCaption">Информация</string>
+    <string name="btnSettingsCaption">Настройки</string>
+    <string name="btnExitCaption">Выход</string>
+
+    <!-- ADD NOTE activity -->
+
+    <string name="tvAddNoteNameCaption">Note short name</string>
+    <string name="tvAddNoteDescription">Текст заметки</string>
+    <string name="cbAddIsPriority">Важная заметка</string>
+
+    <!-- UPD NOTE activity -->
+    <string name="const_confirmation_caption">Подтверждение</string>
+    <string name="const_confirmation_text">Вы уверены?</string>
+    <string name="const_confirmation_yes">Да</string>
+    <string name="const_confirmation_no">Нет</string>
+
+
+    <!-- Settings activity -->
+    <string name="tvSettingsHeader">\nПуть для хранения данных.</string>
+    <string name="btnSettingSelectDirectoryCaption">Выбрать</string>
+    <string name="tvSettingsDirectoryCaption">\nПапка:</string>
+    <string name="tvSettingsFileNameCaption">\nИмя файла:</string>
+    <string name="btnSettingsSave">Сохранить</string>
+    <string name="tvSettingsOther">\n\nДругие настройки:</string>
+    <string name="cbSettingsDeleteConfirm">Подтверждение удаления</string>
+    <string name="msgSettingsCheck">Выберите папку и имя файла для хранения данных.</string>
+
+    <!-- INFO Activity -->
+    <string name="tvInfoCaption">\nИнформация о разработчике:</string>
+    <string name="tvInfoText">Программу разработал Дмитрий Ковальский(Demien)</string>
+
+    <string name="tvInfoMainButtons">\nГлавное окно:</string>
+    <string name="tvInfoAddNote">\nДобавить</string>
+    <string name="tvInfoInfo">\nСправочная информация</string>
+    <string name="tvInfoSettings">\nНастройки</string>
+    <string name="tvInfoExit">\nВыход</string>
+
+    <string name="tvInfoOtherButtons">\nДругие кнопки:</string>
+    <string name="tvInfoBack">\nНазад</string>
+    <string name="tvInfoSave">\nСохранить</string>
+    <string name="tvInfoRemove">\nУдалить</string>
+
+
+</resources>

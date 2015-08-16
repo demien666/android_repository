@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+        <ImageButton
+                android:id="@+id/btnEditNoteBack"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/btnEditNoteRemove"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnBackOnClick"
+                android:src="@drawable/btn_back" />
+
+
+            <ImageButton
+                    android:id="@+id/btnEditNoteRemove"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="btnEditNoteRemoveOnClick"
+                    android:src="@drawable/btn_remove" />
+
+          </RelativeLayout>
+-->
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cbAddIsPriority"
+                android:id="@+id/cbAddIsPriority"/>
+    <!--
+        <TextView
+                android:id="@+id/tvEditNoteName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvAddNoteNameCaption" />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtEditNoteName"/>
+     -->
+    <TextView
+            android:id="@+id/tvEditNoteDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvAddNoteDescription"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="5"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            android:id="@+id/edtEditNoteDescription"/>
+<!--
+    <ImageButton
+            android:id="@+id/btnEditNoteEdit"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnEditNoteEditOnClick"
+            android:src="@drawable/btn_save" />
+-->
+
+
+</LinearLayout>

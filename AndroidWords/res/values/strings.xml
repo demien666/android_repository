@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Word</string>
+    <string name="hello">Hello words!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="const_info">Info</string>
+    <string name="const_error">Error</string>
+    <string name="const_error_lesson_number_too_low">Lesson number is less than 1!</string>
+    <string name="const_error_lesson_number_too_hight">Lesson number exceeds maximum value.</string>
+
+
+    <!-- LearnActivity  -->
+    <string name="learn_info_wdb">Words count:\n<b>#WDB</b></string>
+    <string name="learn_info_wil">Words in lesson:\n<b>#WIL</b></string>
+    <string name="learn_info_cl">Current lesson:\n<b>#CL</b></string>
+    <string name="learn_info_cp">Current position:\n<b>#CP</b></string>
+
+    <string name="learn_prev_lesson"><b>Previous</b>\nLesson</string>
+    <string name="learn_next_lesson">Next\nLesson</string>
+    <string name="learn_prev_word">Previous\nWord</string>
+    <string name="learn_next_word">Next\nWord</string>
+    <string name="learn_start_test">Start test</string>
+    <string name="learn_exit">Exit</string>
+    <string name="learn_info">Info</string>
+    <string name="learn_settings">Settings</string>
+    <string name="learn_current_word">Current word:\n#W</string>
+    <string name="learn_current_translation">Translation:\n#T</string>
+    <string name="learn_current_example">Example:\n#E</string>
+    <string name="learn_lesson_is_learned">Lesson is learned! Congratulation! You can move to next lesson!</string>
+
+    <!-- TestActivity  -->
+    <string name="test_form_caption">Words to process:</string>
+
+</resources>

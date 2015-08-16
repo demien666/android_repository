@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notes</string>
+    <string name="hello">Hello notes!</string>
+
+    <!-- ACTIVITY LIST  -->
+    <string name="activitySettings">Settings</string>
+    <string name="activityAddNote">Add Note</string>
+    <string name="activityEditNote">Edit Note</string>
+    <string name="activityInfo">Info</string>
+
+
+    <string name="action_addNote">Add Note</string>
+    <string name="action_saveNote">Save Note</string>
+    <string name="action_deleteNote">Delete Note</string>
+    <string name="action_info">Info</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_back">Back</string>
+
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="btnAddNoteCaption">Add Note</string>
+    <string name="btnInfoCaption">Info</string>
+    <string name="btnSettingsCaption">Settings</string>
+    <string name="btnExitCaption">Exit</string>
+
+    <!-- ADD NOTE activity -->
+
+    <string name="tvAddNoteNameCaption">Note short name</string>
+    <string name="tvAddNoteDescription">Note Description</string>
+    <string name="cbAddIsPriority">Is important</string>
+
+    <!-- UPD NOTE activity -->
+    <string name="const_confirmation_caption">Confirmation</string>
+    <string name="const_confirmation_text">Are you sure?</string>
+    <string name="const_confirmation_yes">Yes</string>
+    <string name="const_confirmation_no">No</string>
+
+
+    <!-- Settings activity -->
+    <string name="tvSettingsHeader">\nPlease, choose place in file system for storing notes data.</string>
+    <string name="btnSettingSelectDirectoryCaption">Select</string>
+    <string name="tvSettingsDirectoryCaption">\nDirectory:</string>
+    <string name="tvSettingsFileNameCaption">\nFile name:</string>
+    <string name="btnSettingsSave">Save</string>
+    <string name="tvSettingsOther">\n\nOther settings:</string>
+    <string name="cbSettingsDeleteConfirm">Delete confirmation</string>
+    <string name="msgSettingsCheck">Please select directory and enter file name.</string>
+
+    <!-- INFO Activity -->
+    <string name="tvInfoCaption">\nInformation about developer:</string>
+    <string name="tvInfoText">Program was created by Dmitry Kovalsky (Demien)</string>
+
+    <string name="tvInfoMainButtons">\nMain window:</string>
+    <string name="tvInfoAddNote">\nAdd note</string>
+    <string name="tvInfoInfo">\nShow help information</string>
+    <string name="tvInfoSettings">\nSettings</string>
+    <string name="tvInfoExit">\nExit</string>
+
+    <string name="tvInfoOtherButtons">\nOther buttons:</string>
+    <string name="tvInfoBack">\nGo back</string>
+    <string name="tvInfoSave">\nSave note</string>
+    <string name="tvInfoRemove">\nRemove note</string>
+
+
+
+</resources>

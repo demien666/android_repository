@@ -1,0 +1,2 @@
+#!/bin/sh
+mvn archetype:generate -DarchetypeArtifactId=android-quickstart -DarchetypeGroupId=de.akquinet.android.archetypes -DarchetypeVersion=1.1.0 -DgroupId=com.demien -DartifactId=shoppinglist -Dplatform=16

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">weather.co.ua</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnAddCityCaption"><b>+</b></string>
+    <string name="btnRemoveCityCaption"><b>-</b></string>
+    <string name="btnRefreshCaption"><b>↻</b></string>
+    <string name="btnExitCaption"><b>x</b></string>
+    <string name="btnHelpCaption"><b>?</b></string>
+    <string name="last_updated">Updated:</string>
+    <string name="updating">updating...</string>
+    <string name="enter3symbols">Please enter at least 3 symbols.</string>
+    <string name="notFound">City not found :(</string>
+
+    <!-- Search activity -->
+    <string name="title_activity_search">Add new city</string>
+    <string name="btnSearchCityCaption">Search</string>
+    <string name="btnSelectCityCaption">Select</string>
+
+    <!-- Remove city activity -->
+    <string name="title_activity_remove_city">Remove City</string>
+
+    <!-- Text constants -->
+    <string name="day_time_night">Night</string>
+    <string name="day_time_mourning">Morning</string>
+    <string name="day_time_day">Day</string>
+    <string name="day_time_evening">Evening</string>
+    <string name="day_today">Today</string>
+    <string name="report_temperature">t°C</string>
+    <string name="report_cloud">Cloud</string>
+    <string name="report_rain">Rain</string>
+
+    <!-- Help activity -->
+    <string name="title_activity_help">Help</string>
+    <string name="btnBackCaption">Back</string>
+    <string name="tvHelpButtonInfo">\n\nMain screen buttons:</string>
+    <string name="tvHelpRefreshText">refresh(reload) weather data</string>
+    <string name="tvHelpAddCityText">add city</string>
+    <string name="tvHelpRemoveCityText">remove city</string>
+    <string name="tvHelpHelpText">help information</string>
+    <string name="tvHelpExitText">exit</string>
+    
+    <string name="tvHelpImageDescriptionText">\n\nImage description:</string>
+    <string name="ivHelpSunText">\nSun</string>
+    <string name="ivHelpSunCloudsText">\nSun with clouds</string>
+    <string name="ivHelpMoonText">\nMoon</string>
+    <string name="ivHelpMoonCloudsText">\nMoon with clouds</string>
+    <string name="ivHelpCloudy">\nCloudy</string>
+    <string name="ivHelpOvercast">\nOvercast</string>    
+    <string name="ivHelpShortRainText">\nShort rain</string>
+    <string name="ivHelpRainText">\nRain</string>
+    <string name="ivHelpLightningText">\nLightning</string>
+    <string name="ivHelpHailText">\nHail</string>
+    <string name="ivHelpRainSnowText">\nRain with snow</string>
+    <string name="ivHelpSnowText">\nSnow</string>
+    <string name="ivHelpHeavySnowText">\nHeavy snow</string>
+    
+    <string name="btnShowDevInfoActivityCaption">Information about developer</string>
+    
+    
+    <!-- DevInfo Activity -->
+    <string name="title_activity_dev_info">Developer Info</string>
+    <string name="tvHelpDeveloperCaption">Application developer:</string>
+    <string name="tvHelpDeveloperText">Dmitry Kovalsky</string>
+    
+    <!-- Detail Activity  -->
+    <string name="title_activity_detail">Details</string>
+    <string name="tvDetailCity">City:</string>
+    <string name="tvDetailDate">Date:</string>
+    <string name="tvDetailTime">Time:</string>
+    <string name="tvDetailTemp">Temperature:</string>
+    <string name="tvDetailCloud">Clouds(%):</string>
+    <string name="tvDetailPpcp">Chance of precipitation(%):</string>
+    <string name="tvDetailWind">Wind speed(m/s):</string>
+    <string name="tvDetailWindDirection">Wind direction:</string>
+    <string name="tvDetailPressure">Pressure(mm):</string>
+    <string name="tvDetailHmid">Humidity(%):</string>
+    
+
+</resources>

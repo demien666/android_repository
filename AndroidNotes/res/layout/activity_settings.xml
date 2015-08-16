@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+<!--
+    <ImageButton
+            android:id="@+id/btnSettingsBack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnBackOnClick"
+            android:src="@drawable/btn_back" />
+-->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSettingsHeader"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSettingsDirectoryCaption"
+            android:id="@+id/tvSettingsDirectory"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnSettingSelectDirectoryCaption"
+                android:id="@+id/btnSettingsSelectDirectory"
+                android:onClick="btnSettingsSelectDirectoryOnClick"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:minWidth="100dp"
+                android:id="@+id/edtSettingsDirectory"/>
+
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSettingsFileNameCaption"
+            android:id="@+id/tvSettingsFileName"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="notes.storage"
+            android:minWidth="100dp"
+            android:id="@+id/edtSettingsFileName"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSettingsOther"/>
+    <CheckBox
+            android:id="@+id/cbSettingsDeleteConfirm"
+            android:text="@string/cbSettingsDeleteConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+<!--
+    <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSettingsSave"
+            android:id="@+id/btnSettingsSave"
+            android:src="@drawable/btn_save"
+            android:onClick="btnSettingsSaveOnClick"/>
+-->
+</LinearLayout>
